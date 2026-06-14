@@ -1,0 +1,68 @@
+{
+  "hero_stats": [
+    { "label": "Clicks Totales", "value": "12.4K", "trend": "+14%", "positive": true },
+    { "label": "Impresiones", "value": "450.2K", "trend": "+8%", "positive": true },
+    { "label": "CTR Promedio", "value": "2.8%", "trend": "-0.2%", "positive": false }
+  ],
+  "metrics": [
+    {
+      "title": "Datos Principales",
+      "description": "Resumen consolidado del tráfico orgánico en el último trimestre.",
+      "value": "Resumen",
+      "category": "General",
+      "icon": "bar-chart-3"
+    },
+    {
+      "title": "Crecimiento Orgánico",
+      "description": "Indicador clave de la salud de la visibilidad en motores de búsqueda.",
+      "value": "+24%",
+      "category": "Métrica",
+      "icon": "trending-up"
+    },
+    {
+      "title": "Tasa de Rebote",
+      "description": "Porcentaje de usuarios que abandonan tras ver una sola página.",
+      "value": "42%",
+      "category": "Métrica",
+      "icon": "activity"
+    },
+    {
+      "title": "Búsquedas Locales",
+      "description": "Impacto de la marca en áreas geográficas específicas de interés.",
+      "value": "8.2K",
+      "category": "Categoría A",
+      "icon": "map-pin"
+    },
+    {
+      "title": "Dispositivos Móviles",
+      "description": "Distribución del tráfico proveniente de smartphones y tablets.",
+      "value": "68%",
+      "category": "Categoría B",
+      "icon": "smartphone"
+    },
+    {
+      "title": "Velocidad de Carga",
+      "description": "Tiempo promedio de respuesta del servidor para usuarios finales.",
+      "value": "1.2s",
+      "category": "Detalle",
+      "icon": "zap"
+    }
+  ],
+  "insights": [
+    {
+      "title": "Palabras Clave Dominantes",
+      "text": "El término 'div zone' mantiene una posición media de 1.2, liderando la intención de marca.",
+      "icon": "key"
+    },
+    {
+      "title": "Oportunidad de Contenido",
+      "text": "Se detecta un volumen alto de búsqueda sin competencia en 'diseño reactivo 2026'.",
+      "icon": "lightbulb"
+    },
+    {
+      "title": "Retención de Usuario",
+      "text": "Las páginas con visualización de datos retienen a los usuarios un 40% más de tiempo.",
+      "icon": "users"
+    }
+  ]
+}

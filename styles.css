@@ -1,0 +1,65 @@
+/* Custom Transitions & Styles */
+:root {
+    --primary: #f50000;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.data-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.data-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+    border-color: var(--primary);
+}
+
+.data-card:hover .icon-wrapper {
+    background-color: var(--primary);
+    color: white;
+}
+
+.icon-wrapper {
+    transition: all 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+#mobile-menu.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+/* Mobile overflow control - prevents scroll jump on desktop */
+.no-scroll {
+  overflow: hidden;
+}
